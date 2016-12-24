@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
 
   # s.resources = "Resources/*.png" # 项目用到的图片资源
 
-  s.dependency "KissXML", "5.0.3" # 库所依赖的第三方
+  s.library = 'xml2'
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" "${PODS_ROOT}/Headers/Public/KissXML"}
+  s.dependency "KissXML", "5.1.2" # 库所依赖的第三方
 
 end
