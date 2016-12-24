@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ETExtension" # 库名称
-  s.version      = "0.1" # 库版本
+  s.version      = "1.0.0" # 库版本
   s.summary      = "自动解析XML节点的值并转换成对象。" # 简介
 
   s.description  = <<-DESC
@@ -15,13 +15,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0" # 最低适配的版本
   s.source       = { :git => "https://github.com/LarkNan/ETExtension.git", :tag => "#{s.version}" } # 源代码的具体地址以及版本
 
-  s.source_files  = "ETExtension" # 提供给别人的文件
+  s.source_files  = "ETExtensionExample/ETExtension/*.{h,m}" # 提供给别人的文件
   s.requires_arc = true # 是否是ARC
 
-  # s.resources = "Resources/*.png" # 项目用到的图片资源
-
-  s.library = 'xml2'
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" "${PODS_ROOT}/Headers/Public/KissXML"}
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2"}
   s.dependency "KissXML", "5.1.2" # 库所依赖的第三方
 
 end
