@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260E2986C27AED3DB46CA4C3 /* libPods-ETExtensionExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D61EE1CBF7EB2BA5BDB62BC /* libPods-ETExtensionExample.a */; };
+		C76C32E21E0E514300A17866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C32E11E0E514300A17866 /* main.m */; };
+		C76C32E51E0E514300A17866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C32E41E0E514300A17866 /* AppDelegate.m */; };
+		C76C32E81E0E514300A17866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C32E71E0E514300A17866 /* ViewController.m */; };
+		C76C32EB1E0E514300A17866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76C32E91E0E514300A17866 /* Main.storyboard */; };
+		C76C32ED1E0E514300A17866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76C32EC1E0E514300A17866 /* Assets.xcassets */; };
+		C76C32F01E0E514300A17866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76C32EE1E0E514300A17866 /* LaunchScreen.storyboard */; };
+		C76C330F1E0E522500A17866 /* ETFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C33081E0E522500A17866 /* ETFoundation.m */; };
+		C76C33101E0E522500A17866 /* ETProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C330A1E0E522500A17866 /* ETProperty.m */; };
+		C76C33111E0E522500A17866 /* ETPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C330C1E0E522500A17866 /* ETPropertyType.m */; };
+		C76C33121E0E522500A17866 /* NSObject+ETKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C330E1E0E522500A17866 /* NSObject+ETKeyValue.m */; };
+		C76C33181E0E55C300A17866 /* ETPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C33171E0E55C300A17866 /* ETPerson.m */; };
+		C76C331B1E0E588300A17866 /* ETResultInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C76C331A1E0E588300A17866 /* ETResultInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D61EE1CBF7EB2BA5BDB62BC /* libPods-ETExtensionExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ETExtensionExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B8A9EDDC552455F88B2AB52 /* Pods-ETExtensionExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETExtensionExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ETExtensionExample/Pods-ETExtensionExample.release.xcconfig"; sourceTree = "<group>"; };
+		A55703856D5288FA567B3C55 /* Pods-ETExtensionExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ETExtensionExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ETExtensionExample/Pods-ETExtensionExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C76C32DD1E0E514300A17866 /* ETExtensionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETExtensionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76C32E11E0E514300A17866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76C32E31E0E514300A17866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C76C32E41E0E514300A17866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C76C32E61E0E514300A17866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C76C32E71E0E514300A17866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C76C32EA1E0E514300A17866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76C32EC1E0E514300A17866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C76C32EF1E0E514300A17866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C76C32F11E0E514300A17866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76C33061E0E522500A17866 /* ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETExtension.h; sourceTree = "<group>"; };
+		C76C33071E0E522500A17866 /* ETFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFoundation.h; sourceTree = "<group>"; };
+		C76C33081E0E522500A17866 /* ETFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFoundation.m; sourceTree = "<group>"; };
+		C76C33091E0E522500A17866 /* ETProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETProperty.h; sourceTree = "<group>"; };
+		C76C330A1E0E522500A17866 /* ETProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETProperty.m; sourceTree = "<group>"; };
+		C76C330B1E0E522500A17866 /* ETPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPropertyType.h; sourceTree = "<group>"; };
+		C76C330C1E0E522500A17866 /* ETPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPropertyType.m; sourceTree = "<group>"; };
+		C76C330D1E0E522500A17866 /* NSObject+ETKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ETKeyValue.h"; sourceTree = "<group>"; };
+		C76C330E1E0E522500A17866 /* NSObject+ETKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ETKeyValue.m"; sourceTree = "<group>"; };
+		C76C33161E0E55C300A17866 /* ETPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPerson.h; sourceTree = "<group>"; };
+		C76C33171E0E55C300A17866 /* ETPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPerson.m; sourceTree = "<group>"; };
+		C76C33191E0E588300A17866 /* ETResultInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETResultInfo.h; sourceTree = "<group>"; };
+		C76C331A1E0E588300A17866 /* ETResultInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETResultInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76C32DA1E0E514300A17866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260E2986C27AED3DB46CA4C3 /* libPods-ETExtensionExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2CAC8505CA8403E372B6D40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A55703856D5288FA567B3C55 /* Pods-ETExtensionExample.debug.xcconfig */,
+				5B8A9EDDC552455F88B2AB52 /* Pods-ETExtensionExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C76C32D41E0E514300A17866 = {
+			isa = PBXGroup;
+			children = (
+				C76C32DF1E0E514300A17866 /* ETExtensionExample */,
+				C76C32DE1E0E514300A17866 /* Products */,
+				C2CAC8505CA8403E372B6D40 /* Pods */,
+				E36DEEE5770DDE29EC952768 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C76C32DE1E0E514300A17866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76C32DD1E0E514300A17866 /* ETExtensionExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76C32DF1E0E514300A17866 /* ETExtensionExample */ = {
+			isa = PBXGroup;
+			children = (
+				C76C33051E0E522500A17866 /* ETExtension */,
+				C76C32E31E0E514300A17866 /* AppDelegate.h */,
+				C76C32E41E0E514300A17866 /* AppDelegate.m */,
+				C76C32E61E0E514300A17866 /* ViewController.h */,
+				C76C32E71E0E514300A17866 /* ViewController.m */,
+				C76C33191E0E588300A17866 /* ETResultInfo.h */,
+				C76C331A1E0E588300A17866 /* ETResultInfo.m */,
+				C76C33161E0E55C300A17866 /* ETPerson.h */,
+				C76C33171E0E55C300A17866 /* ETPerson.m */,
+				C76C32E91E0E514300A17866 /* Main.storyboard */,
+				C76C32EC1E0E514300A17866 /* Assets.xcassets */,
+				C76C32EE1E0E514300A17866 /* LaunchScreen.storyboard */,
+				C76C32F11E0E514300A17866 /* Info.plist */,
+				C76C32E01E0E514300A17866 /* Supporting Files */,
+			);
+			path = ETExtensionExample;
+			sourceTree = "<group>";
+		};
+		C76C32E01E0E514300A17866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76C32E11E0E514300A17866 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76C33051E0E522500A17866 /* ETExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C76C33061E0E522500A17866 /* ETExtension.h */,
+				C76C33071E0E522500A17866 /* ETFoundation.h */,
+				C76C33081E0E522500A17866 /* ETFoundation.m */,
+				C76C33091E0E522500A17866 /* ETProperty.h */,
+				C76C330A1E0E522500A17866 /* ETProperty.m */,
+				C76C330B1E0E522500A17866 /* ETPropertyType.h */,
+				C76C330C1E0E522500A17866 /* ETPropertyType.m */,
+				C76C330D1E0E522500A17866 /* NSObject+ETKeyValue.h */,
+				C76C330E1E0E522500A17866 /* NSObject+ETKeyValue.m */,
+			);
+			path = ETExtension;
+			sourceTree = "<group>";
+		};
+		E36DEEE5770DDE29EC952768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D61EE1CBF7EB2BA5BDB62BC /* libPods-ETExtensionExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76C32DC1E0E514300A17866 /* ETExtensionExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76C32F41E0E514300A17866 /* Build configuration list for PBXNativeTarget "ETExtensionExample" */;
+			buildPhases = (
+				F7F30AFDAD107B00BF1B3315 /* [CP] Check Pods Manifest.lock */,
+				C76C32D91E0E514300A17866 /* Sources */,
+				C76C32DA1E0E514300A17866 /* Frameworks */,
+				C76C32DB1E0E514300A17866 /* Resources */,
+				F2D9C0574BBDC3D3542E2CEA /* [CP] Embed Pods Frameworks */,
+				243647F3B416FF8C2494762C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETExtensionExample;
+			productName = ETExtensionExample;
+			productReference = C76C32DD1E0E514300A17866 /* ETExtensionExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76C32D51E0E514300A17866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = shenming;
+				TargetAttributes = {
+					C76C32DC1E0E514300A17866 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C76C32D81E0E514300A17866 /* Build configuration list for PBXProject "ETExtensionExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76C32D41E0E514300A17866;
+			productRefGroup = C76C32DE1E0E514300A17866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76C32DC1E0E514300A17866 /* ETExtensionExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76C32DB1E0E514300A17866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76C32F01E0E514300A17866 /* LaunchScreen.storyboard in Resources */,
+				C76C32ED1E0E514300A17866 /* Assets.xcassets in Resources */,
+				C76C32EB1E0E514300A17866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		243647F3B416FF8C2494762C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETExtensionExample/Pods-ETExtensionExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D9C0574BBDC3D3542E2CEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ETExtensionExample/Pods-ETExtensionExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F30AFDAD107B00BF1B3315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76C32D91E0E514300A17866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76C32E81E0E514300A17866 /* ViewController.m in Sources */,
+				C76C330F1E0E522500A17866 /* ETFoundation.m in Sources */,
+				C76C33121E0E522500A17866 /* NSObject+ETKeyValue.m in Sources */,
+				C76C33181E0E55C300A17866 /* ETPerson.m in Sources */,
+				C76C32E51E0E514300A17866 /* AppDelegate.m in Sources */,
+				C76C33111E0E522500A17866 /* ETPropertyType.m in Sources */,
+				C76C33101E0E522500A17866 /* ETProperty.m in Sources */,
+				C76C32E21E0E514300A17866 /* main.m in Sources */,
+				C76C331B1E0E588300A17866 /* ETResultInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C76C32E91E0E514300A17866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76C32EA1E0E514300A17866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C76C32EE1E0E514300A17866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76C32EF1E0E514300A17866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76C32F21E0E514300A17866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C76C32F31E0E514300A17866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76C32F51E0E514300A17866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55703856D5288FA567B3C55 /* Pods-ETExtensionExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ETExtensionExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenming.ETExtensionExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C76C32F61E0E514300A17866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B8A9EDDC552455F88B2AB52 /* Pods-ETExtensionExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ETExtensionExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenming.ETExtensionExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76C32D81E0E514300A17866 /* Build configuration list for PBXProject "ETExtensionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76C32F21E0E514300A17866 /* Debug */,
+				C76C32F31E0E514300A17866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76C32F41E0E514300A17866 /* Build configuration list for PBXNativeTarget "ETExtensionExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76C32F51E0E514300A17866 /* Debug */,
+				C76C32F61E0E514300A17866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76C32D51E0E514300A17866 /* Project object */;
+}
