@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0" # 最低适配的版本
   s.source       = { :git => "https://github.com/LarkNan/ETExtension.git", :tag => "#{s.version}" } # 源代码的具体地址以及版本
 
-  s.source_files  = "MJExtension" # 提供给别人的文件
+  s.source_files  = "ETExtension" # 提供给别人的文件
   s.requires_arc = true # 是否是ARC
 
   # s.resources = "Resources/*.png" # 项目用到的图片资源
